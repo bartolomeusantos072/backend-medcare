@@ -1,7 +1,7 @@
 {
   "name": "backend-medcare",
   "version": "0.1.0",
-  "description": "A boilerplate Docker project for development with a MySQL database and a Node.js backend-medcare using Express",
+  "description": "A medcare Docker project for development with a MySQL database and a Node.js backend-medcare using Express",
   "type": "module",
   "main": "src/server.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "url": "https://github.com/bartolomeusantos072/backend-medcare.git"
   },
   "keywords": [
-    "boilerplate",
+    "medcare",
     "docker",
     "container",
     "node",

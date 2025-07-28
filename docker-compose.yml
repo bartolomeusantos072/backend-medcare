@@ -13,7 +13,7 @@ services:
       - .:/usr/src/app
 
   mysqldb:
-    container_name: db-boilerplate-node-mysql
+    container_name: db-medcare-node-mysql
     env_file: ./.env
     environment:
       MYSQL_PASSWORD: ${DATABASE_PASS}
