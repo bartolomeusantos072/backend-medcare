@@ -3,7 +3,7 @@ version: '3'
 services:
   api:
     build: .
-    container_name: api-boileplate-node-mysql
+    container_name: api-medcare-node-mysql
     command: npm run start
     depends_on:
       - mysqldb
